@@ -1,0 +1,4 @@
+graft src/gisweb
+graft docs
+include *.rst
+global-exclude *.pyc
