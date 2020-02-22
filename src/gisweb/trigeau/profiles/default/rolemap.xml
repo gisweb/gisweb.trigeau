@@ -3,6 +3,14 @@
   <permissions>
   <!-- -*- extra stuff goes here -*- -->
 
+    <permission name="gisweb.trigeau: Add MappaSimulazione" acquire="True">
+      <role name="Manager"/>
+      <role name="Site Administrator"/>
+      <role name="Owner"/>
+      <role name="Contributor"/>
+    </permission>
+
+
     <permission name="gisweb.trigeau: Add Simulazione" acquire="True">
       <role name="Manager"/>
       <role name="Site Administrator"/>

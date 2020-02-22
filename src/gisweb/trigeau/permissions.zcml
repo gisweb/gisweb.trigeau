@@ -7,6 +7,12 @@
   <!-- -*- extra stuff goes here -*- -->
 
     <permission
+        id="gisweb.trigeau.AddMappaSimulazione"
+        title="gisweb.trigeau: Add MappaSimulazione"
+    />
+
+
+    <permission
         id="gisweb.trigeau.AddSimulazione"
         title="gisweb.trigeau: Add Simulazione"
     />
