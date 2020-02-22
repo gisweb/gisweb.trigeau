@@ -1,0 +1,18 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="gisweb.trigeau">
+
+  -*- extra stuff goes here -*-
+
+  <browser:page
+    name="my-view"
+    for="Products.CMFCore.interfaces.IFolderish"
+    class=".my_view.MyView"
+    template="my_view.pt"
+    permission="zope2.View"
+    />
+
+
+</configure>
