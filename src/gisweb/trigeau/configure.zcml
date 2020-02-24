@@ -42,6 +42,14 @@
 
   <!-- -*- extra stuff goes here -*- -->
 
+  <subscriber
+    for=".content.mappa_simulazione.IMappaSimulazione
+        zope.lifecycleevent.interfaces.IObjectModifiedEvent"
+    handler=".content.mappa_simulazione.pippo"
+  />
+
+
+
     <include package=".vocabularies" />
 
 
@@ -50,6 +58,5 @@
 
   <include package=".api" />
 
-  <include package=".views" />
 
 </configure>

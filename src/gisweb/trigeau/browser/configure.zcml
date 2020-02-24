@@ -18,4 +18,37 @@
       directory="static"
       />
 
+  <browser:page
+    name="testview"
+    for="Products.CMFCore.interfaces.IFolderish"
+    attribute="pippo"
+    class=".my_view.testView"
+    permission="zope2.View"
+    />
+
+
+  <browser:page
+    name="my-view"
+    for="Products.CMFCore.interfaces.IFolderish"
+    class=".my_view.MyView"
+    template="templates/my_view.pt"
+    permission="zope2.View"
+    />
+
+  <browser:page
+    name="view3"
+    for="gisweb.trigeau.content.mappa_simulazione.IMappaSimulazione"
+    class=".my_view.MyView"
+    template="templates/my_view.pt"
+    permission="zope2.View"
+  />
+   
+  <browser:page
+    name="view"
+    for="gisweb.trigeau.content.mappa_simulazione.IMappaSimulazione"
+    class=".my_view.ProgramView"
+    template="templates/untemplate.pt"
+    permission="zope2.View"
+  />
+
 </configure>
