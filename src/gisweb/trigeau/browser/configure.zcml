@@ -19,13 +19,20 @@
       />
 
   <browser:page
-    name="testview"
-    for="Products.CMFCore.interfaces.IFolderish"
-    attribute="pippo"
+    name="simulazione"
+    for="*"
+    attribute="simulazione"
     class=".my_view.testView"
     permission="zope2.View"
     />
 
+  <browser:page
+    name="report"
+    for="*"
+    attribute="parseReport"
+    class=".my_view.testView"
+    permission="zope2.View"
+    />
 
   <browser:page
     name="my-view"
